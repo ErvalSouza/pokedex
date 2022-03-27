@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* HEADER E MENU NAVEGAÇÃO */
+
+header{
+  width: 1024;
+  height: 95px;
+  background-color: #F5DB13;
+  box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.cabecalho{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.cabecalho nav{
+  font-size: 20px;
+  display: flex;
+  Width:736px;
+  Height:64px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-left: 100px;
+}
+.imgLogo{
+margin-top: 18px;
+margin-left: 95px;
+}
+.cabecalho p:hover{
+  border-bottom: 4px solid black ;
+}
+
+
+/* CORPO DA HOME */
+
+body{
+  background: linear-gradient(180deg, #F5DB13 0%, #F2B807 100%);
+
+}
+
+.main-index {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.txtH1{
+  width: 500px;
+  height: 250px;
+}
+
+.txtp{
+  font-size: 20px;
+  width: 500px;
+  height: 110px;
+}
+
+.txtCorpo{
+  margin-top: 50px;
+}
+.txtCorpo button{
+  font-size: 23px;
+  width:231px;
+height:66px;
+border-radius:11px;
+font-weight: bold;
+background: #73D677;
+border: none;
+cursor: pointer;
+}
+
+.txtCorpo p{
+  margin-top: 50px;
+}
+.txtCorpo h1{
+  font-size: 70px;
+}
+
+.imgBanner{
+  width: 750px;
+ 
+}
+.imgBanner img{
+  width: 670px;
+}
+
+
+/* Footer */
+
+
+
+.footer-index {
+
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.txt2footer{
+  margin-left: 500px;
+  
+}

@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Pokedex</title>
+    <link rel='stylesheet' href='/stylesheets/index.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <header>
+      <section class="cabecalho">
+        <div class="imgLogo">
+          <img src="/images/Logo.svg" alt="">
+        </div>
+        <nav>
+        <a href="#">
+          <p>Home</p>
+        </a>
+        <a href="#">
+          <p>Pokedex</p>
+        </a><a href="#">
+          <p>Legendaries</p>
+        </a><a href="#">
+          <p>Documentation</p>
+        </a>
+        </nav>
+
+      </section>
+    </header>
+    <main class="main-index">
+      <div class="txtCorpo">
+        <div class="txtH1" >
+          <h1><strong>Find</strong> all your <br>
+            favorite<br>
+            <strong>Pokemon</strong></h1>
+        </div>
+
+        <div class="txtp">
+          <p>You can know the type of Pokemon, <br> its strengths, disadvantages and <br> abilities</p>
+        </div>
+
+        <button>See Pokemons</button>
+      </div>
+      <div class="imgBanner">
+        <img src="/images/BannerComplete.svg" alt="Pikachu">
+      </div>
+    </main>
+   
+
+    <footer class="footer-index">
+      <div class="txt1footer">
+        <p>Make with ❤️ for the PokéSpartans team Platzi Master</p>
+      </div>
+
+      <div class="txt2footer">
+        <p>Ours Team</p>
+      </div>
+    </footer>
   </body>
 </html>
